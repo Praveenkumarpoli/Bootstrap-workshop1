@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+main{
+    
+    background: linear-gradient(to bottom, #f5f7f7 0%, #dce1e4 41%, rgb(209, 92, 38) 0%, #ef650f 100%);
+  }
+
+.shadow-inner h1{
+    text-align: center;
+    color: chartreuse;
+    margin: 10px;
+}
+.text-center{
+    background-color: black;
+}
+@media screen and (min-width:600px) {
+   .class{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   gap: 4%;
+   padding-left: 10%;
+   padding-right: 10%;
+   }
+   .class img{
+    border-radius: 10px;
+   }
+   #p1 img{
+    border-radius: 10px;
+   }
+      .containers{
+        width: 100%;
+       
+    }
+}
